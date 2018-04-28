@@ -17,7 +17,7 @@ requirements = [
     in open('requirements.txt').readlines() if not x.startswith('#')]
 
 
-description = "Python client for Consul (http://www.consul.io/)"
+description = "Python client for Consul 1.x (http://www.consul.io/)"
 
 
 py_modules = [os.path.splitext(x)[0] for x in glob.glob('consul/*.py')]
@@ -46,7 +46,7 @@ class PyTest(TestCommand):
 
 
 setup(
-    name='python-consul',
+    name='python-consul1',
     version=metadata['version'],
     author='Andy Gayton',
     author_email='andy@thecablelounge.com',
