@@ -26,7 +26,7 @@ jobs:
       language: java
       addons:
         sonarcloud:
-          organization: "python-consul"
+          organization: "python-consul1"
           token:
             secure: "lTtnh4/Tm/5vRckFzh5uF/HotBO+lWX/Vx41hc+wS5eFQe9WTsWZlY/hhKtL24rHBdUr3JVBDTBhEtDR5FAv/XwlX2kAOjqcuxOhW0eQP+1NyuMklbV7zGup3T8aNY1vHh0k0mhO5kUwHw3iNLKxO73BvP7/tlrLg+DTeFLtgx8="
           branches:
